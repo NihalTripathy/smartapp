@@ -1,0 +1,776 @@
+
+/* ======== Scroll Bar Styling ======== */ 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+.page-navigation {
+    padding: 40px 0;
+    /*background: #98540e;*/
+    margin-top:88px!important; /*make this zero to 175*/
+    background: url(../uploads/images/inner-slider.jpg);
+    height: 120px; 
+    
+}
+.page-navigation h2 {
+    margin: 0;
+    font-size: 2em;
+    color: #ffcc00;
+}
+.inner-content {
+    min-height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.topinner p {
+    line-height: 1.8em;
+}
+.inner-content p {
+    text-align: justify;
+}
+
+
+
+/* ============ Navigation Manu Start ========== */
+
+/*.navigation:before {
+    position:absolute; left:-1px; top:-1px; content:'';
+    border-top: 30px solid silver;
+    border-right: 30px solid transparent;
+}
+
+.navigation:after {
+    position:absolute; left:-2px; top:-2px; content:'';
+    border-top:75px solid white;
+    border-right: 40px solid transparent;
+}*/
+.navbar-light .navbar-nav .nav-link{
+	font-size: 14px;
+    padding: 9px 20px;
+
+}
+.navbar .navbar-expand-lg .navbar-light{
+	font-size: 15px;
+} 
+.navbar-nav .nav-link{
+	padding-left: 10px;
+	border-bottom: 1px #000;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #ffffff;
+}
+
+
+/* ============== Navigation Menu End ============= */
+
+
+/* ============ Header Notice Start ========== */
+
+/* ============ Header Notice End ========== */
+
+.carousel-caption {
+   position: absolute;
+   top:225px;
+   left: -220px;
+}
+.carousel{
+	margin-top: 80px;
+}
+
+/* ============ Minister Image on Slider Start ========== */
+.minister{
+	float: left;
+	width: 30%;
+	margin-top: -350px;
+	margin-bottom: 10px;
+    margin-left: 1000px;
+}
+.minister img{
+	border-radius: 10px;
+}
+.minblock{
+	margin-bottom: 10px;
+}
+
+/* ============ Minister Image on Slider End ========== */
+
+/* ============ Introduction Block Start ========== */
+
+.intro{
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+.hidden{
+	float: left;
+}
+.intro1{
+	float: left;
+	margin-right: 10px;
+}
+.intro1 p{
+	text-align: justify;
+	font-size: 17px;
+}
+.intro2{
+	float: left;
+	padding-bottom: 30px;
+	margin-left: 10px;
+	border-radius: 2px white;
+	background-color: #ffe6cc; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #cce6ff , #ffe6cc); /* Standard syntax (must be last) */
+    box-shadow:-2px -2px 10px 0px grey;
+}
+.intro2 img{
+	border-radius: 10px;
+	box-shadow:-20px 50px 0px 0px #ffaa80;
+}
+.intro2 p{
+	text-align: justify;
+	padding-left: 15px;
+	font-size: 15px;
+}
+/* ============ Introduction Block End ========== */
+
+/* ============ Dashboard Start ========== */
+.gallerydash{
+	float: left;  
+	background-image: linear-gradient(to bottom, white, #ff99cc);
+	border-top:1px solid #ffe6cc; 
+}
+.dashboard{
+	margin: 0px 0px 0px 0px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+.block{
+	float: left;
+	color: white;
+	width: 30%;
+	margin: 5px;
+	padding-top: 10px;
+	border-radius: 15px;
+	background-image: linear-gradient(to bottom left, #ff7733, #311862);
+	text-align: center;
+	transition: transform .2s;
+}
+.block:hover{
+	-ms-transform: scale(1.1); /* IE 9 */
+  	-webkit-transform: scale(1.1); /* Safari 3-8 */
+  	transform: scale(1.1); 
+  	z-index: 1;
+  	border: 1px solid;
+  	padding: 10px;
+	box-shadow: 5px 5px 18px grey;
+	  
+}
+.news{
+	margin-bottom: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	box-shadow:2px 2px 10px 0px grey;
+	border-radius: 10px;
+	background-color: white;
+}
+.date{
+	padding: 0px;
+	margin-left: -30px;
+	background-color: #00ccff;
+	border-radius: 5px;
+}
+.date p{
+	text-align: center;  
+	color: white;
+}
+.event{
+	float: left;
+	font-size: 15px;
+
+}
+.newsscroll{
+	height: 320px; 
+	overflow-y: scroll; 
+	overflow-x: hidden; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/* ============ Dashboard End ========== */
+
+
+.photobg{
+	float: left;
+	background-image: url("../uploads/images/photobg4.png");
+	background-repeat: no-repeat;
+	color: white;
+	padding: 7px 0px 7px 50px;
+}
+hr{
+	border:1px solid black;
+}
+.gallery{
+	margin-top: 50px;
+}
+
+
+
+
+.footercontent{
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/*margin-top: 20px !important; */
+	font-size: 13px !important; 
+	color: white; 
+	background-color: black;
+	border-top: 5px solid grey;
+}
+p a{
+	color: white;
+	font-size: 
+}
+/*.fa {
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-radius: 50%;
+}*/
+.fa:hover {
+    opacity: 0.7;
+}/*
+
+.fa-facebook {
+  background: white;
+  color: black;
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-radius: 50%;
+}
+
+.fa-twitter {
+   background: white;
+  color: black;
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-radius: 50%;
+}
+
+.fa-google {
+   background: white;
+  color: black;
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-radius: 50%;
+}
+
+*/
+
+@media (max-width: 1366px) and (min-width: 1270px){ 
+	/*.logo img{
+		width: 350px;
+		height: auto;
+	}*/
+	div.navigation .navbar{
+		font-size: 13px !important;
+	}
+	.navbar-light .navbar-nav .nav-link {
+	    font-size: 15px;
+	    padding: 4px 18px;
+	}
+	#noticescroll marquee{
+		font-size: 13px !important;
+	}
+	.minister{
+		margin-top: -300px; 
+		margin-left: 850px;
+	}
+	.carousel-caption{
+		top: 200px;
+		left: -200px;
+	}
+	.carousel-caption h2{
+		font-size: 45px !important;
+	}
+	.carousel-caption p{
+		font-size: 35px !important;
+	}
+
+	.minname{
+		padding: 10px 0px 10px 20px !important;
+		font-size: 13px !important;
+	}
+	.minister img{
+		height: 80px;
+		width: auto;
+	}
+	.blockdiv{
+		margin-top: 35px;
+		padding-top: 30px !important;
+	}
+	.newsheading h2{
+		font-size: 28px !important;
+	}
+	.news{
+		padding: 10px;
+	}
+	.date{
+		border-radius: 5px;
+		margin-left: -20px;
+	}
+	.event{
+		font-size: 17px;
+	}
+	.dashboard{
+	padding-left: 120px;
+	padding-right: 120px;
+	}
+	.plus img{
+		width: 25px;
+		height: 42px;
+	}
+	.minus img{
+		width: 25px;
+		height: 42px;
+	}
+	.galleryimages img{
+		width: 300px;
+		height: 210px;
+	}
+}
+
+
+@media (max-width: 1269px) and (min-width: 1120px){ 
+	.logo img{
+		width: 360px;
+		height: auto;
+	}
+	div.navigation .navbar{
+		font-size: 11px !important;
+	}
+	.navbar-light .navbar-nav .nav-link{
+	font-size: 12px;
+	}
+	#noticescroll marquee{
+		font-size: 12px !important;
+	}
+	.noticescroll img{
+		width: 500px;
+		height: auto;
+	}
+	.minister{
+		margin-top: -250px;
+		margin-left: 750px;
+	}
+	.carousel-caption{
+		top: 180px;
+		left: -200px;
+	}
+	.carousel-caption h2{
+		font-size: 35px !important;
+	}
+	.carousel-caption p{
+		font-size: 25px !important;
+	}
+
+	.minname{
+		padding: 10px 0px 0px 20px !important;
+		font-size: 13px !important;
+	}
+	.minister img{
+		height: 70px;
+		width: auto;
+	}
+	.intro2 img{
+	width: 110px;
+    height: auto;
+	}
+	.dashboard{
+	padding-left: 100px;
+	padding-right: 80px;
+	}
+	.event{
+		font-size: 17px;
+	}
+	.blockdiv{
+		margin-top: 50px;
+		padding-top: 30px !important;
+	}
+	.newsheading h2{
+		font-size: 28px !important;
+	}
+	.plus img{
+		width: 25px;
+		height: 42px;
+	}
+	.minus img{
+		width: 25px;
+		height: 42px;
+	}
+	.galleryimages img{
+		width: 250px;
+		height: 210px;
+	}
+}
+
+@media (max-width: 1119px) and (min-width: 768px){
+	div.navigation .navbar{
+		font-size: 9px !important;
+	}
+	.navbar-light .navbar-nav .nav-link{
+	font-size: 10px;
+	}
+	.logo img{
+		width: 300px;
+		height: auto;
+	}
+	#noticescroll marquee{
+		font-size: 12px !important;
+	}
+	.carousel-caption{
+		top: 150px;
+		left: -200px;
+	}
+	.carousel-caption h2{
+		font-size: 28px !important;
+	}
+	.carousel-caption p{
+		font-size: 23px !important;
+	}
+	.minister{
+		width: 40%;
+		margin-top: -250px;
+		margin-left: 650px;
+	}
+	.minister img{
+		height: 67px;
+		width: auto;
+	}
+	.minname{
+		padding: 10px 0px 10px 20px !important;
+		font-size: 10px !important;
+	}
+	.intro2 img{
+		width: 100px;
+	    height: auto;
+	}
+	.intro1 p {
+	    text-align: justify;
+	    font-size: 15px;
+	}
+	.intro2 p{
+		font-size: 14px;
+	}
+	.dashboard{
+		padding-left: 80px;
+		padding-right: 50px;
+	}
+	.news{
+		padding: 10px;
+	}
+	.event{
+		font-size: 12px;
+	}
+	.date{
+		margin-left: -20px;
+	}
+	.date strong{
+		font-size: 20px;
+	}
+	.newsheading h2{
+		font-size: 25px !important;
+	}
+	.plus img{
+		width: 25px;
+		height: 42px;
+	}
+	.minus img{
+		width: 25px;
+		height: 42px;
+	}
+	.galleryimages img{
+		width: 250px;
+		height: 210px;
+	}
+
+}
+
+@media (max-width: 576px) {
+
+/* ============ Header Notice Start ========== */
+#noticescroll{
+	float: right;
+	padding-left: 0px;
+	background-image: none;
+	background-color: #002db3
+
+}
+/* ============ Header Notice End ========== */
+.carousel-caption {
+   position: absolute;
+   top:none;
+   left: none;
+}
+.carousel{
+	margin-top: 130px;
+}
+/* ============ Minister Image on Slider Start ========== */
+.minister{
+	width: 100%;
+	float: left;
+    margin: 0px !important;
+}
+.minister img{
+	width: 50px;
+	height: auto;
+}
+/* ============ Minister Image on Slider End ========== */
+/* ============ Introduction Block Start ========== */
+.intro{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.intro1{
+	margin: 0px;
+}
+.intro2{
+	margin: 0px;
+	text-align: center;
+}
+.intro2 img{
+	border-radius: 10px;
+	box-shadow: none;
+}
+.intro2 p{
+	text-align: justify;
+	padding-left: 0px;
+	font-size: 16px;
+}
+/* ============ Introduction Block End ========== */
+/* ============ Dashboard Start ========== */
+.dashboard{
+	padding-left: 00px;
+	padding-right: 0px;
+}
+.block{
+	float: left;
+	color: white;
+	width: 100% !important;
+	margin-top: 05px;
+	margin-bottom: 5px;
+	padding: 10px 0px 5px -5px;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom left, #ff7733, #9933ff);
+	text-align: center;
+}
+.date{
+	width: 30%;
+	padding: 0px;
+	margin-left: 0px;
+	background-color: #00ccff;
+	border-radius: 5px;
+}
+.event{
+	width: 70%;
+	float: left;
+}
+.newsheading{
+	margin-top: 20px;
+}
+.newsheading h2{
+	font-size: 29px;
+}
+.newsscroll{
+	padding: 0px;
+	margin: 0px;
+	height: 340px; 
+	overflow-y: scroll; 
+	overflow-x: hidden; 
+	padding-top: 20px;
+}
+/* ============ Dashboard End ========== */
+
+
+.photobg{
+	width: 77%;
+}
+.gallery{
+	padding: 0px !important;
+	text-align: center;
+}
+}
+
+@media (max-width: 767px) {
+		
+.navigation{
+	background-image: none;
+	padding-left: 20px;
+	background-color: #00ccff;
+}
+
+.logo img{
+	width: 300px;
+	height: auto;
+}
+
+/* ============ Header Notice Start ========== */
+#noticescroll{
+	float: right;
+	padding-left: 0px;
+	margin-top: 0px;
+	background-image: none;
+	background-color: #002db3;
+
+}
+
+/* ============ Header Notice End ========== */
+
+.carousel-caption {
+	float: center;
+   position: absolute;
+   top:30px;
+   left: 45px;
+}
+.carousel-caption h2{
+	font-size: 20px !important;
+}
+.carousel-caption p{
+	font-size: 20px !important;
+}
+.carousel{
+	margin-top: 100px;
+}
+/* ============ Minister Image on Slider Start ========== */
+.minister{
+	width: 100%;
+	float: left;
+    margin: 10px  0px !important;
+    padding: 0px;
+}
+.minimage{
+	width: 30%;
+}
+.minname{
+	width: 70%;
+}
+.minister img{
+	width: 100px;
+	height: auto;
+}
+/* ============ Minister Image on Slider End ========== */
+
+/* ============ Introduction Block Start ========== */
+.intro{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.intro1{
+	margin: 0px;
+}
+.intro2{
+	margin: 0px;
+	text-align: center;
+}
+.intro2 img{
+	border-radius: 10px;
+	box-shadow: none;
+}
+.intro2 p{
+	text-align: justify;
+	padding-left: 0px;
+	font-size: 16px;
+}
+/* ============ Introduction Block Start ========== */
+
+/* ============ Dashboard Start ========== */
+.dashboard{
+	padding-left: 00px;
+	padding-right: 0px;
+}
+.block{
+	float: left;
+	color: white;
+	width: 100% !important;
+	margin-top: 05px;
+	margin-bottom: 5px;
+	padding: 10px 0px 5px -5px;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom left, #ff7733, #9933ff);
+	text-align: center;
+}
+.date{
+	width: 30%;
+	padding: 0px;
+	margin-left: 0px;
+	background-color: #00ccff;
+	border-radius: 5px;
+}
+.event{
+	width: 70%;
+	float: left;
+}
+.newsheading{
+	margin-top: 20px;
+}
+.newsheading h2{
+	font-size: 29px;
+}
+.newsscroll{
+	padding: 0px;
+	margin: 0px;
+	height: 340px; 
+	overflow-y: scroll; 
+	overflow-x: hidden; 
+	padding-top: 20px;
+}
+/* ============ Dashboard End ========== */
+
+
+.photobg{
+	width: 77%;
+}
+.gallery{
+	padding: 0px !important;
+	text-align: center;
+	paddi
+}
+ 
+}
+
+
+
+@media (min-width: 768px){
+	.navbar-toggler{
+		display: none;
+}
+}
